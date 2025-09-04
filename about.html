@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danny's Teaching Portfolio - About me</title>
+    <link rel="stylesheet" href="starter.css">
 </head>
-<body>
+<body style="background-color:ivory;"></bodystyle>
     <!--this is the main header section for my page-->
     <header>
-        <h1 style="color: black;"> My teaching Portfolio - Danny O'Neill</h1>
+        <h1 style="color: rgb(255, 255, 255);"> My teaching Portfolio - Danny O'Neill</h1>
     </header>
-    <!-- Navigation menu section-->
-     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About me</a></li>
-            <li><a href="teaching.html">Teaching practice</a></li>
-            <li><a href="projects.html">Project showcases</a></li>
-            <li><a href="worksamples.html">Samples of work</a></li>
-            <li><a href="contact.html">Contact me</a></li>
-        </ul>
+      <!-- Navigation menu section-->
+      <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About me</a></li>
+                <li><a href="teaching.html">Teaching practice</a></li>
+                <li><a href="projects.html">Project showcases</a></li>
+                <li><a href="worksamples.html">Samples of work</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
     </nav>
-    <div style="background-color: #FFF8C1;">
-   
     <!--this is the subheading for my page -->
     <h2>this is a subtitle</h2> 
     <!-- this is a series of subtitles for my page-->
@@ -35,8 +38,14 @@
       <!-- paragraphs help to break up the text and convert it to readable blocks-->
     <p style="color: #B85000;"> My experiences and qualifications</p>
     <!--this paragraph is an example of using attributes to change the font-->
-    <p style="font-family:'Times New Roman', Times, serif ;"> From my teens I have coached within a youth sport team at a high level. This has taught me how to deal with varied levels of learning abilities and athletes with additional needs.I have always been a hands on learner and my coahcing experience and prior knowledge of construction practices and machine use has allowed me to even in highschool assist my peers and work on teaching/coaching skills by assisting my peers with their projects.</p>
-    <p> My teaching experiences and coaching practices are very adaptable and focus on being easily adjustable to accomodate for multiple learners and their levels of understadnding. I have worked within the consturction industry which has given me insights into multiple different facets or careers individuals can pursure and this equips me with the knowledge to not only give them advice but also insight into industry specific practices and expectations</p>
+    <section>
+        <article class="profile">
+            <div class="profile-text">
+                <p style="font-family:'Times New Roman', Times, serif ;"> From my teens I have coached within a youth sport team at a high level. This has taught me how to deal with varied levels of learning abilities and athletes with additional needs.I have always been a hands on learner and my coahcing experience and prior knowledge of construction practices and machine use has allowed me to even in highschool assist my peers and work on teaching/coaching skills by assisting my peers with their projects.</p>
+                <p> My teaching experiences and coaching practices are very adaptable and focus on being easily adjustable to accomodate for multiple learners and their levels of understadnding. I have worked within the consturction industry which has given me insights into multiple different facets or careers individuals can pursure and this equips me with the knowledge to not only give them advice but also insight into industry specific practices and expectations</p>
+            </div>
+        </article>
+    </section>
     <!-- this is an example of using the title attribute to show a message when hovering on a paragraph-->
     <p title="this is a tooltip"> <Hover over this text to see a tooltip>
     <!--this is another example of using an attribute to show how to add a link within a paragraph -->
@@ -58,7 +67,6 @@
                 <img src="images/about-me-infographic.png" alt="an infographic describing my teaching values, experiences, prior professions,with images of tools, and processes">
             </section>
         </div>
-   </div>
    <!-- the sections below are examples of lists both ordered and unordered-->
    <!-- this is an unordered list of things that have given me the experience to teach.-->
     <section>
@@ -110,5 +118,12 @@
                     </table>
         </section>
    </main>
+   <!-- this is the footer section for my pages inline with Semantic HTML-->
+   <footer>
+        <div class="container">
+            <p> &copy; 2025 Danny Oneill. All rights reserved</p>
+        </div>
+
+   </footer>
 </body>
 </html>
