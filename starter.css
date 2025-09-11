@@ -144,7 +144,7 @@ nav a:focus-visible {
   outline-offset: 2px;                    /* outline offset for increased accessibility/ keyboard-focus styling */
 }
 .active {
-  background-color: rgb(234, 237, 239);     /* Indicates active page link */
+  background-color: rgb(127, 127, 127);     /* Indicates active page link */
 }
 @media (max-width: 640px) {               /* responsiveness for viewing on mobile */
   nav .container { flex-wrap: wrap; }

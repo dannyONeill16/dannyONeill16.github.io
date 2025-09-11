@@ -27,6 +27,26 @@
         </div>
     </nav>
     <main>
+        <!-- This section is for the user of the site to be able to contact me-->
+        <section class="section">
+            <form id="contact form" action="#" methods="post" autocomplete="on">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <!-- Input for full name -->
+                        <label for="name ">Full Name</label>
+                        <input id="name" name="name" type="text" placeholder="your name" required minlength="6">
+                        <!-- Input for email -->
+                         <label for="name ">Email Address</label>
+                        <input id="email" name="email" type="email" placeholder="your email"required autocomplete="email">
+                         <label for="message ">Message</label>
+                         <!-- Input for message being sent -->
+                        <textarea id="message " name="message" type="message" placeholder="your message"required minlength="10"></textarea>
+                        <!-- Button used for input in line with Semantic HTML-->
+                        <button type="submit"> Send</button>
+                    
+                </fieldset>
+            </form>
+        </section>
         
     </main>
     <footer>
