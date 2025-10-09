@@ -18,7 +18,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About me</a></li>
                 <li><a href="teaching.html">Teaching practice</a></li>
-                <li><a href="projects.html">Project showcases</a></li>
                 <li><a href="worksamples.html">Samples of work</a></li>
                 <li><a class="active" href="contact.html">Contact me</a></li>
                 <li><a href="resume.html">Resumes</a></li>
@@ -29,23 +28,24 @@
     <main>
         <!-- This section is for the user of the site to be able to contact me-->
         <section class="section">
-            <form id="contact form" action="https://formsubmit.co/daniel.oneill1608gmail.com" methods="post" autocomplete="on">
-                <fieldset>
-                    <legend>Your Details</legend>
-                    <!-- Input for full name -->
-                        <label for="name ">Full Name</label>
-                        <input id="name" name="name" type="text" placeholder="your name" required minlength="6">
-                        <!-- Input for email -->
-                         <label for="name ">Email Address</label>
-                        <input id="email" name="email" type="email" placeholder="your email"required autocomplete="email">
-                         <label for="message ">Message</label>
-                         <!-- Input for message being sent -->
-                        <textarea id="message " name="message" type="message" placeholder="your message"required minlength="10"></textarea>
-                        <!-- Button used for input in line with Semantic HTML-->
-                        <button type="submit"> Send</button>
-                    
-                </fieldset>
-            </form>
+            <form id="contact-form" action="https://formsubmit.co/bd6eddb76e8bb432e7bf7e6be3fec2f7" method="post" autocomplete="on">
+                    <fieldset>
+                        <legend>Your details</legend>
+                        <!-- Form text input for Full Name -->
+                        <label for="name">Full name</label>
+                        <input id="name" name="name" type="text" placeholder="Name" required minlength="6"             autocomplete="name">
+                        <!-- Form text input for Email address -->
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="name@example.com" required autocomplete="email">
+                        <!-- Form text input for Message -->
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message?" required minlength="8"></textarea>
+                        <!-- honeypot anti-spam field -->
+                        <input type="text" name="honey" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;"> 
+                        <!-- button tag used for input, in line with Semantic HTML-->
+                        <button type="submit">Send</button>
+                    </fieldset>
+                </form>
         </section>
         
     </main>
